@@ -1,0 +1,24 @@
+sonali0203@gmail.com
+Cutecats@area51
+
+Webpage on aws: -
+
+sudo apt update
+sudo apt install apache2 -y
+sudo systemctl start apache2
+sudo systemctl enable apache2
+
+sudo nano /var/www/html/index.html
+
+Select all and delete: 
+	Ctrl + 6
+	Alt + Shift + T
+
+Creating Snapshot: -
+Go to EC2 → Volumes → Select volume → Actions → Create Snapshot
+
+AMI Image: -
+Go to EC2 → Instances → Actions → Image and templates → Create image
+
+Launch instance from image: -
+Go to AMIs → Select → Launch Instance
